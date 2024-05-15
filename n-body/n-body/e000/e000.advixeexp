@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <is_snapshot type="bool">false</is_snapshot>
+ <is_temporary type="bool">false</is_temporary>
+ <rdmgr>
+  <timestamp type="u64_t">1715767161</timestamp>
+  <hostname>PROGRAMMER20.amplituda.loc</hostname>
+  <os>windows</os>
+  <product>Intel® Advisor 2024.1.0</product>
+  <buildNumber type="s32_t">615301</buildNumber>
+  <logicalCPUCount type="s32_t">12</logicalCPUCount>
+  <physicalCoreCount type="s32_t">6</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">2592000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">167</CPUModel>
+  <CPUStepping type="s32_t">1</CPUStepping>
+  <CPUBrandName>11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz</CPUBrandName>
+  <isa>avx512</isa>
+ </rdmgr>
+</root>

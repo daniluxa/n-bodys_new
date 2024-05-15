@@ -1,0 +1,38 @@
+﻿  In file included from C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp:3:
+  In file included from C:\Program Files (x86)\Intel\oneAPI\advisor\latest\include\advisor-annotate.h:1:
+C:\Program Files (x86)\Intel\oneAPI\advisor\latest\sdk\include\advisor-annotate.h(309,24): : warning : 'getenv' is deprecated: This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+    309 |             lib_name = getenv("INTEL_LIBITTNOTIFY64");
+        |                        ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(1183,20): note: 'getenv' has been explicitly marked deprecated here
+   1183 |     _Check_return_ _CRT_INSECURE_DEPRECATE(_dupenv_s)
+        |                    ^
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(355,55): note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+    355 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+        |                                                       ^
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(345,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    345 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+  In file included from C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp:3:
+  In file included from C:\Program Files (x86)\Intel\oneAPI\advisor\latest\include\advisor-annotate.h:1:
+C:\Program Files (x86)\Intel\oneAPI\advisor\latest\sdk\include\advisor-annotate.h(311,24): : warning : 'getenv' is deprecated: This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+    311 |             lib_name = getenv("INTEL_LIBITTNOTIFY32");
+        |                        ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(1183,20): note: 'getenv' has been explicitly marked deprecated here
+   1183 |     _Check_return_ _CRT_INSECURE_DEPRECATE(_dupenv_s)
+        |                    ^
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(355,55): note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+    355 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+        |                                                       ^
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(345,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    345 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp(26,24): : warning : unused variable 'rd' [-Wunused-variable]
+     26 |     std::random_device rd;
+        |                        ^~
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp(40,24): : warning : unused variable 'rd' [-Wunused-variable]
+     40 |     std::random_device rd;
+        |                        ^~
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp(65,24): : warning : unused variable 'rd' [-Wunused-variable]
+     65 |     std::random_device rd;
+        |                        ^~
+  5 warnings generated.

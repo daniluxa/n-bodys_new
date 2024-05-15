@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\n-body\r000ti3\r000ti3.inspxe </message>
+ <nop/>
+ <message severity="info">Found target process c:\users\shumkin\documents\github\education\hps\n-bodys_new\n-body\x64\debug\n-body.exe (PID = 2764). Analysis started... </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\shumkin\documents\github\education\hps\n-bodys_new\n-body\x64\debug\n-body.exe. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\compiler\2024.1\bin\libmmdd.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\msvcp140d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\compiler\2024.1\bin\libiomp5md.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbased.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\ucrtbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140_1d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\system32\vcruntime140.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.1\bin64\runtime\libittnotify.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intel\oneapi\inspector\2024.1\bin64\pinjitprofiling.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: dynamiccodebin. </message>
+ <nop/>
+ <message severity="warning">One or more threads in the application accessed the stack of another thread. This may indicate one or more bugs in your application. Setting the Inspector to detect data races on stack accesses and running another analysis may help you locate these and other bugs.</message>
+ <nop/>
+</feedback>

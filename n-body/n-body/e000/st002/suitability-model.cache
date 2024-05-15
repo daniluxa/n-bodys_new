@@ -1,0 +1,2548 @@
+(version 3 2)
+
+[ Sites ]
+(site k_energy 0 C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 108 k_energy
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "compute_k_energy(struct Particle *,int)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 108 "0x2650" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "GSimulation::start(void)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 228 "0x5868" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe main C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\main.cpp 43 "0xc7bf" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "invoke_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 78 "0xe058" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main_seh()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 288 "0xdefd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 330 "0xddbd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe mainCRTStartup D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_main.cpp 16 "0xe0ed" NATIVE CALL
+    C:\windows\System32\KERNEL32.DLL BaseThreadInitThunk "" -1 "0x17343" NATIVE CALL
+    C:\windows\SYSTEM32\ntdll.dll RtlUserThreadStart "" -1 "0x526b0" NATIVE CALL
+)
+(site p_energy 1 C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 127 p_energy
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "compute_p_energy(struct Particle *,int)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 127 "0x27f0" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "GSimulation::start(void)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 229 "0x5885" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe main C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\main.cpp 43 "0xc7bf" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "invoke_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 78 "0xe058" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main_seh()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 288 "0xdefd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 330 "0xddbd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe mainCRTStartup D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_main.cpp 16 "0xe0ed" NATIVE CALL
+    C:\windows\System32\KERNEL32.DLL BaseThreadInitThunk "" -1 "0x17343" NATIVE CALL
+    C:\windows\SYSTEM32\ntdll.dll RtlUserThreadStart "" -1 "0x526b0" NATIVE CALL
+)
+(site acceletion 2 C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 157 acceletion
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "computeAcc(struct Particle *,struct Particle *,double,int)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 157 "0x36aa" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 252 "0x5b5b" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "GSimulation::start(void)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 246 "0x5a46" NATIVE LOOP
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe main C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\main.cpp 43 "0xc7bf" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "invoke_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 78 "0xe058" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main_seh()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 288 "0xdefd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 330 "0xddbd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe mainCRTStartup D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_main.cpp 16 "0xe0ed" NATIVE CALL
+    C:\windows\System32\KERNEL32.DLL BaseThreadInitThunk "" -1 "0x17343" NATIVE CALL
+    C:\windows\SYSTEM32\ntdll.dll RtlUserThreadStart "" -1 "0x526b0" NATIVE CALL
+)
+
+[ Tasks ]
+(itask k_energy 0 C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 111 k_energy
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 111 "0x2677" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "compute_k_energy(struct Particle *,int)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 109 "0x2659" NATIVE LOOP
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "GSimulation::start(void)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 228 "0x5868" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe main C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\main.cpp 43 "0xc7bf" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "invoke_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 78 "0xe058" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main_seh()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 288 "0xdefd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 330 "0xddbd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe mainCRTStartup D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_main.cpp 16 "0xe0ed" NATIVE CALL
+    C:\windows\System32\KERNEL32.DLL BaseThreadInitThunk "" -1 "0x17343" NATIVE CALL
+    C:\windows\SYSTEM32\ntdll.dll RtlUserThreadStart "" -1 "0x526b0" NATIVE CALL
+)
+(itask p_energy 1 C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 130 p_energy
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 130 "0x287f" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "compute_p_energy(struct Particle *,int)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 128 "0x2857" NATIVE LOOP
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "GSimulation::start(void)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 229 "0x5885" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe main C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\main.cpp 43 "0xc7bf" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "invoke_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 78 "0xe058" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main_seh()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 288 "0xdefd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 330 "0xddbd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe mainCRTStartup D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_main.cpp 16 "0xe0ed" NATIVE CALL
+    C:\windows\System32\KERNEL32.DLL BaseThreadInitThunk "" -1 "0x17343" NATIVE CALL
+    C:\windows\SYSTEM32\ntdll.dll RtlUserThreadStart "" -1 "0x526b0" NATIVE CALL
+)
+(itask acceletion 2 C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 160 acceletion
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 160 "0x370d" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "computeAcc(struct Particle *,struct Particle *,double,int)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 158 "0x36e5" NATIVE LOOP
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 252 "0x5b5b" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "GSimulation::start(void)" C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp 246 "0x5a46" NATIVE LOOP
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe main C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\main.cpp 43 "0xc7bf" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "invoke_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 78 "0xe058" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main_seh()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 288 "0xdefd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe "__scrt_common_main()" D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl 330 "0xddbd" NATIVE CALL
+    C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe mainCRTStartup D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_main.cpp 16 "0xe0ed" NATIVE CALL
+    C:\windows\System32\KERNEL32.DLL BaseThreadInitThunk "" -1 "0x17343" NATIVE CALL
+    C:\windows\SYSTEM32\ntdll.dll RtlUserThreadStart "" -1 "0x526b0" NATIVE CALL
+)
+
+[ Locks ]
+
+[ Program ]
+(para k_energy 1 1
+  (comp 572000 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 11576 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 547998 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 89176 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 284742 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 225864822 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 1052000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 260761 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 190836998 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 12290 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 210503 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 55946 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 192051704 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 12060 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 218726 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 199819 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 52013161 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 12498 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 7480 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 644500 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 8268 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 374384 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 2273946 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 3212100 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 307259722 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 11290 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 236480 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 65938 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 274405704 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 102000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 471573 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 300475998 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 14390 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 217396 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 2579669 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 2 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 2110096 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 330127600 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 123000 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 16984 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 48953 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 733607 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 9775 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 529734 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 553500 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 2 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 671392 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 193823 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 445596 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 2 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 107900 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 373373203 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 15659 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 218126 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 318038339 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 19000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 323707 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 393642 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 838242 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 264492999 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 10829 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 378815 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 578476 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 326626165 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 16051 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 10919 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 889947 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 10437 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 499100 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 762311 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 358219557 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 19000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 486557 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 1387746 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 142869 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 323760990 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 13675 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 287050 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 137873 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 1390742 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 131880 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 119888 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 4062334 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 410396303 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 15013 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 230761 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 555496 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 809269 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 844234 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 2722542 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 53950 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 481409965 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 13275 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 8700 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 87919 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 1350719 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 95802 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 319711 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 350680 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 421996994 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 21000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 335696 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 344519998 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 13990 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 577473 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 322486008 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 13982 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 360676 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 93911 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 4280134 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 359598008 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 18000 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 12567 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 848998 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 7360 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 352311 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 482561 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 767307 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 873211 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 387627626 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 11744 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 200061 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 191826 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 268569250 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 12321 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 317376 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 1388746 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 1 1
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 293700673 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 11552 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 382088 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 1014084 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 196819 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 196220681 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 18000 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 8275 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 763998 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 8506 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 441084 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 277999492 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 74000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 378657 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 276452998 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 65000 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 280746 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 244992998 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 16151 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 221630 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 618438 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 278145843 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 16413 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 7561 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 466585 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 5877 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 418000 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 122888 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 209807 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 297460384 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 12821 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 324869 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 256 256
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 64 64
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 2 2
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 1 1
+    (comp 888196 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 16 16
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 4 4
+  )
+  (spawn acceletion 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn acceletion 64 64
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 1781 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 1782 0 0 0 0 0)
+  )
+  (comp 273127171 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 11998 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 5645 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 5646 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 5646 0 0 0 0 0)
+  )
+  (comp 279662002 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 15905 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 1238 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 1239 0 0 0 0 0)
+  )
+  (comp 245185095 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 13344 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 8630 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 659654 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 9137 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 309573 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 506542 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 326057857 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 108000 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 286 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 287 0 0 0 0 0)
+  )
+  (comp 251209000 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 13075 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 128397 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 128398 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 128398 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 128398 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 128398 0 0 0 0 0)
+  )
+  (comp 290440925 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 18000 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 501 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 502 0 0 0 0 0)
+  )
+  (comp 249502000 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 16298 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 7676 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 710700 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 9556 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 244776 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 389646 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 32690342 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 98000 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 2405 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 2406 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 2406 0 0 0 0 0)
+  )
+  (comp 315746000 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 11898 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 15369 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 15370 0 0 0 0 0)
+  )
+  (comp 317060102 0 0 0 0 0)
+)
+(para acceletion 1 1
+  (comp 14275 0 0 0 0 0)
+  (spawn acceletion 256 256
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 256 256
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 64 64
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 16 16
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 4 4
+    (comp 2166 0 0 0 0 0)
+  )
+  (spawn acceletion 2 2
+    (comp 2167 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 2167 0 0 0 0 0)
+  )
+  (spawn acceletion 1 1
+    (comp 2167 0 0 0 0 0)
+  )
+  (comp 313669725 0 0 0 0 0)
+)
+(para k_energy 1 1
+  (comp 15013 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 10957 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 2 2
+  )
+  (spawn k_energy 1 1
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 1 1
+    (comp 60942 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 256 256
+  )
+  (spawn k_energy 64 64
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 16 16
+  )
+  (spawn k_energy 4 4
+  )
+  (spawn k_energy 1 1
+  )
+  (spawn k_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 1076981 0 0 0 0 0)
+)
+(para p_energy 1 1
+  (comp 7445 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 519076 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 256 256
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 4 4
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 423615 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 1 1
+    (comp 75930 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 64 64
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 16 16
+  )
+  (spawn p_energy 2 2
+  )
+  (spawn p_energy 1 1
+  )
+  (spawn p_energy 1 1
+    (comp 1 0 0 0 0 0)
+  )
+  (comp 362046545 0 0 0 0 0)
+)
+(comp 928625853 0 0 0 0 0)
+
+[ End ]

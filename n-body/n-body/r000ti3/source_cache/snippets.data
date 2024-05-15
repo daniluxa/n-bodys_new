@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" md5="23563c86200dd6c5857971995da54ac3">
+    <snippet line="81">
+      <line line="78">void sum_with_correction(double&amp; sum, double&amp; value_to_add, double&amp; correction)</line>
+      <line line="79">{</line>
+      <line line="80">    double corrected = value_to_add - correction;</line>
+      <line line="81">    double new_sum = sum + corrected;</line>
+      <line line="82">    correction = (new_sum - sum) - corrected;</line>
+    </snippet>
+    <snippet line="83">
+      <line line="80">    double corrected = value_to_add - correction;</line>
+      <line line="81">    double new_sum = sum + corrected;</line>
+      <line line="82">    correction = (new_sum - sum) - corrected;</line>
+      <line line="83">    sum = new_sum;</line>
+      <line line="84">}</line>
+    </snippet>
+  </file>
+</snippets>

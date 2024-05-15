@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_SUITABILITY" 
+                             duration_total="1.310398E+00"
+                             num_processors="8" 
+                             num_mic_threads="128" 
+                             threading_paradigm="tbb" 
+                             target_system="cpu" 
+                             program_max_gain="1.004874E+00" >
+  <site filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" 
+        line_no="108" 
+        label="k_energy">
+    <suitability duration_total="9.836766E-04" 
+                 num_instances="11">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="3.459509E-03" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" 
+        line_no="127" 
+        label="p_energy">
+    <suitability duration_total="3.387573E-01" 
+                 num_instances="11">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="3.396203E-01" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" 
+        line_no="157" 
+        label="acceletion">
+    <suitability duration_total="8.777940E-01" 
+                 num_instances="30">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="8.683631E-01" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <task filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" 
+        line_no="111" 
+        label="k_energy" 
+        duration_total="3.091530E-05" 
+        num_instances="11000" />
+  <task filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" 
+        line_no="130" 
+        label="p_energy" 
+        duration_total="1.671528E-03" 
+        num_instances="11000" />
+  <task filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp" 
+        line_no="160" 
+        label="acceletion" 
+        duration_total="1.911750E-02" 
+        num_instances="30000" />
+</IntelParallelAdvisorSummary >

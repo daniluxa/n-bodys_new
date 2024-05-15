@@ -1,0 +1,22 @@
+-r
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\n-body\Intel® VTune™ Profiler Results\n-body\r001tr
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--itt-config=openmp
+--stack-unwind-limit=8388608
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--type=threading:stack
+--type=waiting:stack
+--type=io:stack
+--platform-type
+--app-working-dir=C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\n-body\
+--
+C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\x64\Debug\n-body.exe

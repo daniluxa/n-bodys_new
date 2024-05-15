@@ -1,0 +1,122 @@
+99 [5460] INFO perfrun.launcher <> - Launcher main begin
+109 [5460] INFO perfrun.launcher <> - MessageCatalogInit finished
+110 [5460] INFO perfrun.launcher <> - Launcher instance created
+110 [5460] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 856 --option-file C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\config\runss.options 
+158 [5460] INFO perfrun.launcher <> - New signal handler callback was added
+277 [5460] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+278 [5460] INFO perfrun.launcher <> - create file finder object
+278 [5460] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs pid = 4294967295
+283 [5460] INFO perfrun.launcher <> - create data directory = C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0
+286 [5460] INFO perfrun.launcher <> - Creating the master collection flag
+290 [5460] INFO perfrun.launcher <> - Done creating the master collection flag
+290 [9264] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+291 [9264] INFO perfrun.sdk <> - Allocating TMU :C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0\systemcollector-10548-9049FA0A8AC9.sc
+292 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+295 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+296 [9264] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+296 [9264] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+296 [9264] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+296 [9264] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+296 [9264] INFO perfrun.mrte <> - system-wide mode is 0
+296 [9264] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+412 [9264] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0
+412 [9264] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=9049FA0A8AC9
+412 [9264] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0
+413 [9264] INFO perfrun.mrte <> - PATH=C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\runtime;C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\sdp\AppData\Local\Microsoft\WindowsApps
+413 [9264] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+413 [9264] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+413 [9264] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+413 [9264] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+413 [9264] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+413 [9264] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+413 [9264] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+413 [9264] INFO perfrun.mrte <> - Data directory: C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0
+413 [9264] INFO perfrun.mrte <> - Mrte plugin is initialized
+413 [9264] INFO perfrun.sdk <> - runCmd: C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\emon.exe -v
+418 [9264] INFO perfrun.sdk <> - runCmd started PID 9932
+678 [9264] INFO perfrun.emon <> - Extracted TSC Frequency = 2.3808e+09 from emon -v
+678 [9264] INFO perfrun.metrics <> - Identified PMU type as undefined
+679 [9264] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+679 [9264] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+679 [9264] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.tpss <> - initialize tpss controller
+680 [9264] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+680 [9264] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+680 [9264] INFO perfrun.tpss <> - default obj-size-min=1024
+680 [9264] INFO perfrun.tpss <> - default hash-table-size=0
+680 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+680 [9264] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+680 [5460] INFO perfrun.launcher <> - set environment variable: PATH = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\runtime;C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\sdp\AppData\Local\Microsoft\WindowsApps
+681 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\runtime\ittnotify_collector.dll
+681 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\runtime\ittnotify_collector.dll
+681 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+681 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\runtime\ittnotify_collector.dll
+681 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\runtime\ittnotify_collector.dll
+681 [5460] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+682 [5460] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+682 [5460] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+682 [5460] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+682 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0
+682 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = 9049FA0A8AC9
+682 [5460] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0
+682 [5460] INFO perfrun.launcher <> - set environment variable: PATH = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\runtime;C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\sdp\AppData\Local\Microsoft\WindowsApps
+683 [5460] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+683 [5460] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+683 [5460] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+683 [5460] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+683 [5460] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+683 [5460] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+683 [5460] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+684 [5460] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+687 [5460] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\sdp\Documents\VTune\Samples\matrix\matrix.exe' is valid.
+688 [5460] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\sdp\Documents\VTune\Samples\matrix\matrix.exe
+692 [5460] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\pin.exe -error_file C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\pin.exe -p64 C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\pin.exe -t64 C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\tpsstool.dll -t C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin32\tpsstool.dll -server_name tpss_ipc.10548 -prd_dir C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0 -- C:\Users\sdp\Documents\VTune\Samples\matrix\matrix.exe
+692 [5460] INFO perfrun.launcher <> - ProcessCreator object was created
+697 [5460] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+702 [9264] INFO perfrun.itt <> - start itt controller for pid #6180
+706 [9264] INFO perfrun.sdk <> - runCmd: C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\emon.exe -M
+710 [9264] INFO perfrun.sdk <> - runCmd started PID 1788
+903 [9264] INFO perfrun.sdk <> - runCmd: C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\emon.exe -v
+909 [9264] INFO perfrun.sdk <> - runCmd started PID 7380
+1096 [9264] INFO perfrun.sdk <> - runCmd: C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\sep.exe -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=2400000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2400000,INST_RETIRED.ANY:sample:sa=2400000,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2400000,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=2000003,UOPS_EXECUTED.X87:sa=2000003,UOPS_RETIRED.SLOTS:sa=2000003,UOPS_EXECUTED.THREAD:sa=2000003,TOPDOWN.SLOTS:perf_metrics:sample:sa=2000003,TOPDOWN_RETIRING.ALL:sample:sa=2000003 -experimental
+1102 [9264] INFO perfrun.sdk <> - runCmd started PID 5184
+1371 [9264] INFO perfrun.emon <> - Spawned collector thread
+1371 [3540] INFO perfrun.sdk <> - runCmd: C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\emon.exe -u -t 0.050 -l0 -C CPU_CLK_UNHALTED.DISTRIBUTED,CPU_CLK_UNHALTED.REF_TSC,CPU_CLK_UNHALTED.THREAD,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,INST_RETIRED.ANY,TOPDOWN.SLOTS:perf_metrics,TOPDOWN_RETIRING.ALL,UOPS_EXECUTED.THREAD,UOPS_EXECUTED.X87,UOPS_RETIRED.SLOTS -experimental
+1378 [3540] INFO perfrun.sdk <> - runCmd started PID 9836
+1768 [9264] INFO perfrun.tpss <> - start tpss controller for pid #6180
+1829 [5460] INFO perfrun.launcher <> - Launcher: all plugins were started
+1829 [5460] INFO perfrun.launcher <> - DirectoryMonitor object was created
+1829 [5460] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+1829 [5460] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+1829 [5460] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+1831 [5460] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1837 [5460] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+9798 [5460] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+9865 [9264] INFO perfrun.itt <> - detach itt controller
+9865 [9264] INFO perfrun.itt <> - detach itt controller done
+9865 [9264] INFO perfrun.sdk <> - runCmd: C:\Workspace\Intel_VTune_Profiler_2024.0.0\Intel_VTune_Profiler_2024.0.0\bin64\emon.exe -stop
+9871 [9264] INFO perfrun.sdk <> - runCmd started PID 2900
+10297 [9264] INFO perfrun.emon <> - EMON collector successfully stopped.
+
+10435 [3540] WARN perfrun.emon_output <> - TimeKeeper: the time is being asked while the time keeper object is armed. This may mean that the time for the last group is getting reused as the time for this group
+10436 [3540] INFO perfrun.emon_output <> - Collector process exited successfully
+10437 [9264] INFO perfrun.tpss <> - stop tpss controller
+10460 [9264] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0\systemcollector-10548-9049FA0A8AC9.sc
+10484 [9264] INFO perfrun.system <> - closed the system trace file: C:\Users\sdp\Documents\VTune\Projects\sample (matrix)\r000hs\data.0\systemcollector-10548-9049FA0A8AC9.sc
+10485 [5460] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+10485 [5460] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+10485 [5460] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+10486 [5460] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+10486 [5460] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+10491 [5460] INFO perfrun.launcher <> - Application exit code: 0
+10491 [5460] INFO perfrun.launcher <> - Exit code: 0

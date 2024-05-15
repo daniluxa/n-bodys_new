@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp"
+           line_no="246"
+           routine="GSimulation::start"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="8.842219E-01"
+           trip_counts=""
+           func_instance="21"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp"
+           line_no="158"
+           routine="computeAcc"
+           is_vectorized="1"
+           self_time="0.000000E+00"
+           total_time="5.450778E-01"
+           trip_counts=""
+           func_instance="26"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp"
+           line_no="165"
+           routine="computeAcc"
+           is_vectorized="2"
+           self_time="5.450778E-01"
+           total_time="5.450778E-01"
+           trip_counts=""
+           func_instance="22"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp"
+           line_no="131"
+           routine="compute_p_energy"
+           is_vectorized="0"
+           self_time="2.200114E-01"
+           total_time="2.912762E-01"
+           trip_counts=""
+           func_instance="15"
+           priority="0"/>
+  <hotspot filename="C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\GSimulation.cpp"
+           line_no="128"
+           routine="compute_p_energy"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.912762E-01"
+           trip_counts=""
+           func_instance="17"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

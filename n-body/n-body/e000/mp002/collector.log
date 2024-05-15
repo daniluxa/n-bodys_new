@@ -1,0 +1,39 @@
+Analysis started...
+Collection has been started.
+Result file: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\n-body\e000\mp002\mp002.advixe 
+Found target process c:\users\shumkin\documents\github\education\hps\n-bodys_new\n-body\x64\debug\n-body.exe (PID = 10092). Analysis started... 
+Loaded module: c:\users\shumkin\documents\github\education\hps\n-bodys_new\n-body\x64\debug\n-body.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\vcruntime140d.dll. 
+Loaded module: c:\windows\system32\msvcp140d.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\compiler\2024.1\bin\libmmdd.dll. 
+Loaded module: c:\program files (x86)\intel\oneapi\compiler\2024.1\bin\libiomp5md.dll. 
+Loaded module: c:\windows\system32\vcruntime140_1d.dll. 
+Loaded module: c:\windows\system32\ucrtbased.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\vcruntime140.dll. 
+Loaded module: c:\windows\system32\kernel.appcore.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Unloaded module: c:\users\shumkin\documents\github\education\hps\n-bodys_new\n-body\x64\debug\n-body.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\vcruntime140d.dll. 
+Unloaded module: c:\windows\system32\msvcp140d.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\compiler\2024.1\bin\libmmdd.dll. 
+Unloaded module: c:\program files (x86)\intel\oneapi\compiler\2024.1\bin\libiomp5md.dll. 
+Unloaded module: c:\windows\system32\vcruntime140_1d.dll. 
+Unloaded module: c:\windows\system32\ucrtbased.dll. 
+Unloaded module: c:\windows\system32\ucrtbase.dll. 
+Unloaded module: c:\windows\system32\vcruntime140.dll. 
+Unloaded module: c:\windows\system32\kernel.appcore.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Process c:\users\shumkin\documents\github\education\hps\n-bodys_new\n-body\x64\debug\n-body.exe (PID = 10092) has terminated. 
+Warning: No SITE annotations were encountered, so no stride/alignment data can be reported. 
+Application exit code: 0 
+Result file: C:\Users\shumkin\Documents\GitHub\Education\HPS\n-bodys_new\n-body\n-body\e000\mp002\mp002.advixe 
+Analysis completed
